@@ -1,0 +1,5 @@
+SET AWS_SQS_QUEUE_URL=https://sqs.us-west-2.amazonaws.com/143947248339/postral_delivery_queue
+SET AWS_ACCESS_KEY_ID=AKIAJJYUMF2MGI2LVIBA
+SET AWS_SECRET_KEY_ID=CyXTSQ7l5FgyPy8fG6dqP1RADzlyX6iBFPLUgDmX
+SET AWS_REGION=us-west-2
+mocha test

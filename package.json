@@ -1,0 +1,31 @@
+{
+  "name": "sqs-to-webhook",
+  "version": "0.0.1",
+  "description": "A simple queue processing engine that reads messages from an SQS queue and calls a webhook with SQS-based retry",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postral/sqs-to-webhook.git"
+  },
+  "keywords": [
+    "sqs",
+    "webhook",
+    "aws",
+    "processor"
+  ],
+  "author": "Philip S. O'Donnell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/postral/sqs-to-webhook/issues"
+  },
+  "homepage": "https://github.com/postral/sqs-to-webhook",
+  "dependencies": {
+    "async": "^1.5.0",
+    "aws-sdk": "^2.2.26",
+    "moment": "^2.10.6",
+    "request": "^2.67.0"
+  }
+}
